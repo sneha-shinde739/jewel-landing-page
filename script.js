@@ -265,6 +265,10 @@ document.addEventListener('DOMContentLoaded', () => {
     submitBtn.innerHTML = originalBtnText;
     submitBtn.disabled = false;
 
+    // Track successful lead form submission in Google Tag Manager / dataLayer
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({ 'event': 'lead_form_submit' });
+
     // Show Thank you Alert (without WhatsApp redirection)
     alert(`Thank you, ${name}! Your enquiry for "${config}" has been submitted successfully. Our sales team will contact you shortly.`);
 
