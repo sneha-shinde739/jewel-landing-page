@@ -206,7 +206,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const heroForm = document.getElementById('heroLeadForm');
   const popupForm = document.getElementById('popupLeadForm');
 
-  const GOOGLE_SHEETS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbyWj8jNdbccyTOLjd5fbwuNNWPV9xlTSHFCz5eWbVJrLOBGURImO_qNrwGmoybVTAHtMw/exec'; // <-- Paste your Web App URL here
+  const GOOGLE_SHEETS_WEB_APP_URL = 'https://script.google.com/macros/s/AKfycbwT8nyd-zkMchEsuz1Zh4eqhvdW0hT6jBj7FlSA-feZNqLSXNJ0zCWjuYl688RviF5COA/exec'; // <-- Paste your Web App URL here
 
   function handleFormSubmit(e, formType) {
     e.preventDefault();
